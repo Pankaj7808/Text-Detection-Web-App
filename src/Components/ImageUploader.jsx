@@ -53,7 +53,7 @@ function ImageUploader(props) {
 
     const formData = new FormData();
     formData.append("file", selectedImage);
-    formData.append("apikey", "K87292502288957");
+    formData.append("apikey", "YOUR_API_KEY");
 
     formData.append("language", "eng");
     formData.append("OCREngine", "2");
